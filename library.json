@@ -1,0 +1,25 @@
+{
+    "name": "esp32-smbus",
+    "keywords": "smbus, i2c, esp32, esp-idf, espressif",
+    "description": "ESP32-compatible C library for the SMBus protocol.",
+    "authors": {
+        "name": "David Antliff",
+        "email": "david@pitchblende.co.nz",
+        "url": "http://pitchblende.co.nz",
+        "maintainer": true
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DavidAntliff/esp32-smbus.git"
+    },
+    "export": {
+        "exclude": ["doc/*"]
+    },
+    "build": {
+        "srcDir": "./",
+        "includeDir": "include/"
+    },
+    "version": "1.0.0",
+    "frameworks": "espidf",
+    "platforms": "espressif32"
+}
